@@ -1,0 +1,32 @@
+
+<app-shopping-edit></app-shopping-edit>
+<hr>
+<div  *ngIf="ingredients!=null"  class="row">
+  <!-- routerLinkActive="active"
+ [routerLink]="[country.alpha3Code | lowercase]" -->
+
+ <div *ngFor="let ingredient of ingredients; let i = index"
+  class="column" >
+
+ <div class="card">
+    <div class="head"> {{ingredient.name}}</div>
+    <div class="left">
+       <div>{{ingredient.name}}</div>
+       <div>{{ingredient.name}}</div>
+       <div>{{ingredient.amount}}</div>
+    </div>
+    <div class="right">
+       <div>{{ingredient.name}}</div>
+       <div>{{ingredient.name}}</div>
+       <div>{{ingredient.amount}}</div>
+    </div>
+
+</div>
+<hr>
+</div>
+</div>
+
+
+
+
+

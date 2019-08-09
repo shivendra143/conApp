@@ -1,0 +1,28 @@
+
+<div  *ngIf="countries[0]!=null"  class="row">
+       <!-- routerLinkActive="active"
+      [routerLink]="[country.alpha3Code | lowercase]" -->
+
+      <div *ngFor="let country of countries; let i = index"
+       class="column" >
+
+      <div class="card">
+         <div class="head"> {{country.name}}</div>
+         <div class="left">
+            <div>{{country.name}}</div>
+            <div>{{country.capital}}</div>
+            <div>{{country.capital}}</div>
+         </div>
+         <div class="right">
+            <div>{{country.name}}</div>
+            <div>{{country.capital}}</div>
+            <div>{{country.capital}}</div>
+         </div>
+
+    </div>
+     <hr>
+    </div>
+    </div>
+
+
+

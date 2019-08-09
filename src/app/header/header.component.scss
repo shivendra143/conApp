@@ -1,0 +1,19 @@
+nav{
+  background:blue;
+}
+nav ul li a{
+  color:#fff;
+  top: 9px;
+  padding: 7px;
+  padding-left: 18px;
+
+}
+li.active{
+  width: 100px;
+  height: 10px;
+}
+li.active a{
+  color:#000!important;
+  height: 31px;
+  top: 9px;
+  }

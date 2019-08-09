@@ -1,0 +1,19 @@
+<div class="row col-xs-12">
+
+     <div class="container">
+        <div class="row">
+          <div class="col-sm-1">
+            <i class="fa fa-user" style="font-size:25px"></i>
+          </div>
+          <div class="col-sm-9">
+            <h2>Customers</h2>
+          </div>
+        </div>
+        <hr>
+        <!-- <app-country-header #searchfun (eventClicked)="childEventClicked($event)"  (click)="accessFunc.getList();" (keyup.enter)="accessFunc.getSearch()"></app-country-header> -->
+        <div class="row col-xl-12">
+              <app-country-list [event]="clickedEvent"  #accessFunc></app-country-list>
+
+        </div>
+     </div>
+ </div>
